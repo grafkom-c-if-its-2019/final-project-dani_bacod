@@ -9,7 +9,7 @@ export default class FixedTree {
     this.y = y;
     this.z = z;
   }
-
+  
   init() {
     /*----- CREATE FIXED CUBE -----*/
     let mtlLoader = new MTLLoader();
@@ -20,11 +20,12 @@ export default class FixedTree {
       objLoader.setMaterials(materials)
       objLoader.load('./tree/Tree.obj', (object) => {
         object.position.set(this.x, this.y, this.z);
-        object.traverse(function (child) {
-          if (child instanceof THREE.Mesh) {
-              child.materials = materials;
+        object.traverse(function(node){
+          if( node instanceof THREE.Mesh ){
+            node.castShadow = true;
+            node.receiveShadow = true;
           }
-          });
+        });
         scene.add(object);
       })
     })

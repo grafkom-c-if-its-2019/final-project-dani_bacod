@@ -255,14 +255,14 @@ export function init() {
   }
 
   if (controls) {
-    window.addEventListener('click', (e) => {
-      shootBomb(shootVelo)
+    window.addEventListener('mousedown', (e) => {
+      shootBomb(40)
     })
-    window.addEventListener('keydown', (event) => {
-      if (event.keyCode === 32) {
-        shootBomb(40)
-      }
-    })
+    // window.addEventListener('keydown', (event) => {
+    //   if (event.keyCode === 32) {
+    //     shootBomb(100)
+    //   }
+    // })
   }
 
   /*----- PLAYERS STILL RECEIVE GAMESTATE WHEN INACTIVE-----*/
