@@ -38,10 +38,10 @@ let prevStateLength = 0;
 let counter = 0;
 let bombcounter = 0;
 const spawnPositions = [
-  { x: 11.5, y: 1.5, z: -4 },
-  { x: -36, y: 1.5, z: 36 },
-  { x: 12.1, y: 1.5, z: 36.4 },
-  { x: -36.4, y: 1.5, z: -4 },
+  { x: 4, y: 1.5, z: -4 },
+  { x: 4, y: 1.5, z: -93 },
+  { x: 93, y: 1.5, z: -93 },
+  { x: 93, y: 1.5, z: -4 },
 ]
 
 const bombMaterial = new THREE.MeshPhongMaterial({

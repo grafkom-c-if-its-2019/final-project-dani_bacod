@@ -55,7 +55,7 @@ export const generateMap = (mapArr) => {
       const z = -(k + mapArrWidth) * 4 + 100;
 
       if (mapArr[j][k] === 4) { // CREATE TREE
-        const fixedTree = new FixedTree(x, y-2, z);
+        const fixedTree = new FixedTree(x, y-4, z);
         fixedTree.init();
 
       }else if (mapArr[j][k] === 2) { // CREATE BOX
