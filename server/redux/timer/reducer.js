@@ -12,7 +12,7 @@ const timer = (state = initialState, action) => {
       newState[action.roomId].currTime = currTime / 1000;
       break;
     case SET_TIME:
-      newState[action.roomId].endTime = action.time + 180300;
+      newState[action.roomId].endTime = action.time + 300300;
       break;
     default:
       return state;
