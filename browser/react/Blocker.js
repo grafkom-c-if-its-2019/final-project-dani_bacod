@@ -46,11 +46,11 @@ class Blocker extends Component {
       <div id="blocker" ref="blocker">
         { this.state.instructions &&
           <div id="instructions" ref="instructions" onClick={this.handleClick}>
-            <span className='blocker-title'>Click to play</span>
+            <span className='blocker-title'>Klik untuk Bermain</span>
             <br />
-            <span className='blocker-instruction-controls'>(W,A,S,D = Move, MOUSE = Look, CLICK = Plant Bomb, SPACE = Throw Bomb)</span>
+            <span className='blocker-instruction-controls'>(W,A,S,D = Jalan, MOUSE = Kamera, CLICK = Lempar Bom)</span>
             <br />
-            <span className='blocker-instruction-controls'>(ENTER = Open Chat, ` = Close Chat, ESC = Instructions)</span>
+            <span className='blocker-instruction-controls'>(ENTER = Buka Chat, ` = Tutup chat, ESC = Instruksi)</span>
             <br />
             <br />
             <br />
@@ -59,16 +59,16 @@ class Blocker extends Component {
 
             <span className='blocker-instruction-controls'> Tips: </span>
             <br />
-              <span className='blocker-instruction-tips'>Wooden crates can be broken with bombs to navigate the map.</span>
+              <span className='blocker-instruction-tips'>Kotak kayu bisa hancur jika terkena bomb</span>
               <br />
               <br />
-              <span className='blocker-instruction-tips'>You cannot throw bombs over blocks or crates.</span>
+              <span className='blocker-instruction-tips'>Batu tidak bisa hancur terkena bomb. Jadi berlindunglah di balik batu.</span>
               <br />
               <br />
-              <span className='blocker-instruction-tips'>You can throw your bombs at other players' bombs to move them.</span>
+              <span className='blocker-instruction-tips'>Kamu bisa melempar bomb untuk memindahkan bomb dari lawan</span>
               <br />
               <br />
-              <span className='blocker-instruction-tips'>Be careful not to kill yourself!</span>
+              <span className='blocker-instruction-tips'>Hati-hati. JANGAN BUNDIR!</span>
             <br />
           </div>}
         <MuteButton />
