@@ -1,7 +1,7 @@
 # final-project-dani_bacod
 final-project-dani_bacod created by GitHub Classroom
 
-## Gelud
+## Gelud Kuy
 - Requirement
     - Node.js and npm
     - Chrome browser
@@ -23,6 +23,13 @@ final-project-dani_bacod created by GitHub Classroom
     - Socket.io
         - Sebagai soket multiplayer dan fitur chating dalam game
 
+# Dokumentasi
+![SS1](/dokumentasi/images/1.jpeg)
+![SS2](/dokumentasi/images/2.jpeg)
+![SS3](/dokumentasi/images/3.jpeg)
+[PDF_Dock](/dokumentasi/Proposal_FP-dani_bacoD)
+
+
 # Dani_bacoD [ITS 2019] 
 Nama | NRP
 ------------ | -------------
@@ -32,5 +39,5 @@ Hendra Ramadani | 0511174000055
 Hafidz Firman A. | 05111740000195
 Edgar Andrew H. | 05111740000166
 
-[Demo Link](http://github.com)
+[Demo Link](#)
  
